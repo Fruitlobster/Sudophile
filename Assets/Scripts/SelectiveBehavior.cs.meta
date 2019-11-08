@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 27f2fa0bd86e97d448dd8ef80551544f
+guid: a7305ac3491d80941919aeb0e4c0aa3d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - smallgrid: {fileID: 423977292132316906, guid: 2fcfe8b3d4bfd5c46a276ec5fa55df98,
-      type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

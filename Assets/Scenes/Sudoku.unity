@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1373,7 +1373,7 @@ PrefabInstance:
     - target: {fileID: 4493293265922821901, guid: ba180693ba18d94479dce00bfb55ffe0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4493293265922821901, guid: ba180693ba18d94479dce00bfb55ffe0,
         type: 3}
@@ -1425,6 +1425,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493293265922821900, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387731944096512515, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: smallgrid
+      value: 
+      objectReference: {fileID: 423977292132316906, guid: 2fcfe8b3d4bfd5c46a276ec5fa55df98,
+        type: 3}
+    - target: {fileID: -2912371574840968991, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2912371574840968991, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -2912371574840968991, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.21047
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba180693ba18d94479dce00bfb55ffe0, type: 3}
