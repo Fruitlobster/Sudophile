@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1064,6 +1064,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1afc75328ab72c48ac61fd766823bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  one: {fileID: -2302941617203001145, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  two: {fileID: -228782931875470454, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  three: {fileID: -6574188780062484291, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  four: {fileID: 6065286262915114134, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  five: {fileID: -1633899369732438607, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  six: {fileID: 5020998509418992866, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  seven: {fileID: 5126515830753293186, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  eight: {fileID: 5929264391854198960, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
+  nine: {fileID: 6829792741685368342, guid: b6fa6ce4e541ea346b4c4a9d4c786159, type: 3}
 --- !u!1 &1308467806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,6 +1445,22 @@ PrefabInstance:
       propertyPath: smallgrid
       value: 
       objectReference: {fileID: 423977292132316906, guid: 2fcfe8b3d4bfd5c46a276ec5fa55df98,
+        type: 3}
+    - target: {fileID: 8387731944096512515, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: mypos.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387731944096512515, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: mypos.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387731944096512515, guid: ba180693ba18d94479dce00bfb55ffe0,
+        type: 3}
+      propertyPath: one
+      value: 
+      objectReference: {fileID: -2302941617203001145, guid: b6fa6ce4e541ea346b4c4a9d4c786159,
         type: 3}
     - target: {fileID: -2912371574840968991, guid: ba180693ba18d94479dce00bfb55ffe0,
         type: 3}
