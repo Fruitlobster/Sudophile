@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//using BuildSudoku;
 public class Sudoku_Quiz : MonoBehaviour
 {
     public Sprite one;
@@ -22,6 +22,13 @@ public class Sudoku_Quiz : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        int[] grid = BuildSudoku.Build();
+        GameObject[] fields = GameObject.FindGameObjectsWithTag("SudokuField");
+        for(int i=0; i<fields.Length;i++){
+            fields[i].GetComponent<FieldBehaviour>().ChangeSprite(grid[i]);
+        }
+        
+        
         //initialize numbers array
         for(int i = 0; i < 9; i++)
         {
@@ -35,7 +42,7 @@ public class Sudoku_Quiz : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void FixedUpdate()
